@@ -9,7 +9,7 @@
      else {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
          document.title = '你在想什么? (*▔＾▔*)';
-         titleTime = setTimeout(2000, function () {
+         titleTime = setTimeout(1500, function () {
              document.title = OriginTitle;
          });
      }
