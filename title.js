@@ -3,7 +3,7 @@
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = '某女星性感泳装照流出，这身材也太好了吧！';
+         document.title = '某女星性感泳装照流出，这身材也太Hot了吧！';
          clearTimeout(titleTime);
      }
      else {
