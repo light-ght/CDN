@@ -8,9 +8,9 @@
      }
      else {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = '你在想什么？(*▔＾▔*) ';
-         titleTime = setTimeout(function () {
+         document.title = '你在想什么? (*▔＾▔*)';
+         titleTime = setTimeout(2000, function () {
              document.title = OriginTitle;
-         }, 2000);
+         });
      }
  });
