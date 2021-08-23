@@ -3,12 +3,12 @@
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = '女星性感泳装照流出，这身材也太Hot了吧！';
+         document.title = '我还没玩够，回来陪我玩鸭(,,• ₃ •,,)';
          clearTimeout(titleTime);
      }
      else {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = '你在想什么? (*▔＾▔*)';
+         document.title = '你回来辣！ヾ（o◕ˇ∀ˇ◕）ツ '+ OriginTitle;
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 1500);
