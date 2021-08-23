@@ -3,7 +3,7 @@
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = '我还没玩够，快回来玩鸭(,,• ₃ •,,)';
+         document.title = '我还没玩够，来陪我鸭(,,• ₃ •,,)';
          clearTimeout(titleTime);
      }
      else {
